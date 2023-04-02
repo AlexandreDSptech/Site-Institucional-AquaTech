@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Cadastro - AquaTech</title>
+            <!-- Aqui colocamos o link para o arquivo de estilização-->
+            <link rel="stylesheet" href="../Css/style.css">
+            <link rel="stylesheet" href="../Css/formulario-estilo.css">
+            <link rel="shortcut icon" href="../Imagens/favicon2.ico" type="image/x-icon">
+            <script src="../Js/script.js"></script>
+        </head>
+        <body>
+            <!-- Nosso cabeçalho -->
+            <div class="header">
+                <div class="container">
+                    <h1 class="logo">AcquaTech</h1>
+                    <!-- imagem de logo visual prévio -->
+                    <img height="100px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaMAAAB4CAMAAABoxW2eAAAAkFBMVEUAAAAT/wAP0AAR4wAGVQAPxgADKQANqAAOwQAKiAAOtQAS7gAT/AANsAADKwALlwAQ2gACHgAOvAAPzgAJfwAS9gAEPAACFwACGwAPyQAMnwAR6AAIbAAEMgALjgAIZQABBgAGTwAJeQAFSAADIwAHXAAIbwABEgAFQgAMoQAEOgAOuAADJgAJgwAHWwABDAC3/+zqAAAEj0lEQVR4nO3b63aiOgAFYEABLSKUgk7VIl6q9Xis7/92ByRBJBcuR9ea6P5+TpIK2UZyYTQNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODhxlZmfO7afr+KXdN3Rro+cnzTjVfTuhbvl48cv8vqbPM6f/il/16u2dp2u2L16LnfTo1XB19n+Ie+tFGQV/uU1fnI67j8Uod+0vCr02WrhtyuvFv54jkbUG7uSZq95XUGsj9t5nVsfmmv+KCRP+xw4arpnJE3EiV0MUtEDe+ZUcY4jVtfvFo6ZvQrHEOUsxA0vXdG6WgyTvuW16+UbhnN6hLKCJ4m988o8xEm7W5BIZ0yCqo9FDmpqPqv/GnBYzLKPm4tnSuqq0tGb+We6R1P/Yk1PZ+n1mQVvt30nylpff+M0q/K57rNfaiiQ0bDa6fMPXY5NCx1Ia+T75bR4JMZudloWtSu0FTTPqOvYkIXhfwai+uEYsWW3i2jkzbdBY7OiMxd87tRQfuMioeRZBXq0jo+W3a3jPKl0cbmTDFHwbLx/fz9Wmdk0X54k9XyaK0NU3TnjFJfscH+6kWBaPKvnNYZ0d7njJAy0sucCfj9M0pZuwG7pnaeZDS1zsggLf6RV/tDusxhSh6SUaZvsw8n+UUqonVGo0bDSNMG5CfHqhY8LKPUxqts8tZdpRLaZpTo0u67CkV/+ZEZpbYh/Zl92Yy2uqyDSnakIvNIeHBGmaUdvXJG76SB7PThgmb0XS0g83LuHgRFzo9m/NLajPbr3itnRBsEdfXo/I+ZfJOCuawxefjH/FJpRvvf8oKp7iqV0DqjqEEXZ8j8L2JO4Xf13bcX/U7mxBn9DD9uV0p1V6mE1hmZ8v6jJqRajyn50aWDJBOTKj/8YkFGCxdz7xzdUWUXPjfoHJh9pCSOaIRR50j+EZyMNh5dt5X1BA80xbTOiE4adENW60hrMcujYuUk3u+jQ1X0zKtkdF4HvFNhP540vae/XOuMrnuqPeFbOdPiS83L4VtWqF0zZKeERDmjDe/VpPQLNHyiE4r2GV3PJnSXm9J2dq3B3TEqetXhHMktizEh3MogGYVWaHKOJvToMxS8mKcocl/s9rRY6Ywv/b5WuiMJzdLmJn8VtblWmHs3L/Ukw9Ko4Jw95UhGEffNpMHi6U7Mebd5gzO3un2dYWQEdhyu12F8CCozX9EDxStXij6Os0tz93ZUHITXLDwrd47PsdFdUZsR78E7qG11Id7uafAHJCeI/Izmruj5pbpOGTV7d0u2XXSsayzbKuJk5NiCtdQz6JaR1hf+3lA9+TRkKH/NVbodWP3sntfmcaqejhlp2ok3pSo4gtdRrsamuLUhX9ncZOTHNaeN6uucUTpLNnnvTunZizmNngxjl9s+GtSNimJ2PjJe4ZV8zajhy/77SLI8GJXh5Bj2Mmn86Uvbv8lp5B939YvPY35pZvgy/wPp/3qffK+9mW3b3mn5035tklirXZw2P3jr/tdTv1oPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM/qPwKDMsGIvJ5NAAAAAElFTkSuQmCC" alt=""/>
+                    <ul class="navBar">
+                        <li><a href="../Index.html">Home</a></li>
+                        <li><a onclick="Simulador()">Simulador</a></li>
+                        <li>|</li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a id="aqui" onclick="Here()">Cadastro</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Começo do Banner -->
+            <div class="banner">
+                <div class="container">
+                    <div class="caixa_formulario">
+                        <h1>Bem-vindo!</h1>
+                        <div class="formulario">
+                            <span>Nome:</span>
+                            <input id="nome_input" type="text" placeholder="Seu Username">
+                            <span>E-mail:</span>
+                            <input id="email_input" type="email" placeholder="aluno@sptech.school">
+                            <span>Senha:</span>
+                            <input id="senha_input" type="password" placeholder="*****">
+                            <span>Confirmção da Senha:</span>
+                            <input id="conf_senha_input" type="password" placeholder="*****">
+                            <button onclick="Cadastro()">Entrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do Banner -->
+            <!-- Começo do Footer -->
+            <div class="footer">
+                <div class="container">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </div>
+            </div>
+            <!-- Fim do Footer -->
+        </body>
+    </html>

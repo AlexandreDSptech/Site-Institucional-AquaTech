@@ -1,0 +1,113 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+}
+
+/* Começo do Hearder */
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border-bottom: 3px solid cyan;
+}
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    color: cyan;
+}
+.navBar{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    color: darkorange;/*#bd9762*/
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+.header ul #aqui{
+    color: #32b9cd;
+}
+a:hover{
+    border-bottom: 2px solid #32b9cd;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: darkorange;
+}
+
+/* Fim do Header */
+
+/* Começo do Banner */
+
+.banner{
+    background-image: url(../Imagens/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.banner .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.banner .container p{
+    color: white;
+    font-size: 25px;
+    width: 10%;
+}
+.banner .container p span{
+    font-weight: 800;
+}
+
+/* Fim do banner */
+
+.social{
+    background-color: #cdcdcd;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+.social .container{
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+/*
+Margin empurra o elemento para fora
+Border não lembro
+Padding empurra o elemento para dentro || tamnho do elemento?
+*/
+.social .container .card h4{
+    color: #d7427d;
+}
+
+.footer{
+    background-color: black;
+    height: 150px;
+}
+.footer .container{
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
